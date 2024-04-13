@@ -1,11 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/f205123584.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>menue</title>
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <!-- start container -->
+    <div>
+      <!-- nav -->
+      <div>
+        <nav>
+          <div class="border-b-2">
+            <h1 class="text-gray-600 font-bold uppercase text-2xl p-3">
+              <a href="#">hamidpour-food</a>
+            </h1>
+          </div>
+          <ul>
+            <li class="text-gray-500">
+              <span>Home</span>
+              <i class="fa-solid fa-house"></i>
+            </li>
+            <li class="text-gray-500">
+              <span>About</span>
+              <i class="fa-regular fa-circle-question"></i>
+            </li>
+            <li class="text-gray-500">
+              <span>Contact</span>
+              <i class="fa-solid fa-envelope"></i>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- end nav -->
+      <!-- main -->
+      <main class="px-16 py-6">
+        <div>
+          <a href="">Log in</a>
+          <a href="">Sign up</a>
+        </div>
+        <header>
+          <h2 class="text-gray-700 text-6xl">Recipes</h2>
+          <h3 class="text-gray-500 text-2xl pl-1">For Everyone</h3>
+        </header>
+        <div>
+          <h4 class="font-bold border-b-4 mt-12 m-2">Latest Recipes</h4>
+          <!-- cards -->
+          <div class="mt-9">
+            <div>
+              <img src="./image/ghorme.jpg" alt="Ghorme Sabzi" />
+            </div>
+            <div>
+              <span>Ghorme Sabzi</span>
+              <span>Recipes by Nima hamidpour</span>
+            </div>
+          </div>
+          <div class="mt-9">
+            <div>
+              <img src="./image/gheyme.jpg" alt="Gheyme" />
+            </div>
+            <div>
+              <span>Gheyme</span>
+              <span>Recipes by Nima hamidpour</span>
+            </div>
+          </div>
+          <div class="mt-9">
+            <div>
+              <img src="./image/kabab.jpg" alt="Kabab" />
+            </div>
+            <div>
+              <span>Kabab</span>
+              <span>Recipes by Nima hamidpour</span>
+            </div>
+          </div>
+          <!-- end cards -->
+          <h4 class="font-bold border-b-4 mt-12 m-2">Most Popular</h4>
+          <!-- cards -->
+          <!-- biad poresh konam -->
+        </div>
+        <div>
+          <div>Load More...</div>
+        </div>
+      </main>
+    </div>
+    <!-- end container  -->
   </body>
 </html>

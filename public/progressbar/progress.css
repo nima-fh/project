@@ -1,0 +1,14 @@
+@font-face {
+  font-family: kaman;
+  src: url(../fonts/Kaman.ttf);
+}
+* {
+  font-family: kaman;
+}
+.progress-container::before {
+  content: "";
+  transform: translateY(-50%);
+}
+.circle.active {
+  border-color: #3498db;
+}

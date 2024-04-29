@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="booklist.css" />
+    <title>booklist</title>
+  </head>
+  <body class="flex justify-center items-center">
+    <div
+      class="container w-11/12 max-w-5xl m-5 overflow-hidden border-2 rounded-2xl shadow-2xl p-5"
+    >
+      <header>
+        <div
+          id="pagebanner"
+          class="bg-gray-400 p-3 flex justify-center items-center flex-col rounded-lg"
+        >
+          <h1 class="text-4xl p-2">کتابخانه من</h1>
+          <form action="" id="form" class="my-2">
+            <input
+              type="text"
+              placeholder="search books..."
+              class="rounded-full px-4 py-2"
+            />
+          </form>
+        </div>
+      </header>
+      <div id="library" class="m-8">
+        <div class="flex justify-end items-center">
+          <h1 class="text-2xl">کتاب های اخیر</h1>
+        </div>
+        <div id="list" class="">
+          <ul>
+            <li
+              class="flex justify-between items-center border-r-4 mx-5 my-3 p-2 border-b-gray-400 hover:border-purple-500"
+            >
+              <span
+                class="bg-purple-500 text-white py-3 px-5 rounded-full hover:bg-black hover:text-white"
+                >حذف</span
+              >
+
+              <span class="">شازده کچولو</span>
+            </li>
+            <li
+              class="flex justify-between items-center border-r-4 mx-5 my-3 p-2 border-b-gray-400 hover:border-purple-500"
+            >
+              <span
+                class="bg-purple-500 text-white py-3 px-5 rounded-full hover:bg-black hover:text-white"
+                >حذف</span
+              >
+
+              <span class=""> جنایات و مکافات</span>
+            </li>
+            <li
+              class="flex justify-between items-center border-r-4 mx-5 my-3 p-2 border-b-gray-400 hover:border-purple-500"
+            >
+              <span
+                class="bg-purple-500 text-white py-3 px-5 rounded-full hover:bg-black hover:text-white"
+                >حذف</span
+              >
+
+              <span class=""> هری پاتر</span>
+            </li>
+            <li
+              class="flex justify-between items-center border-r-4 mx-5 my-3 p-2 border-b-gray-400 hover:border-purple-500"
+            >
+              <span
+                class="bg-purple-500 text-white py-3 px-5 rounded-full hover:bg-black hover:text-white"
+                >حذف</span
+              >
+
+              <span class=""> قلعه حیوانات</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <form action="" id="hide" class="flex justify-end items-center mr-10">
+        <label class="p-3"> مخفی کردن کتاب ها </label>
+        <input type="checkbox" />
+      </form>
+      <form action="" id="add-book" class="flex justify-center items-center">
+        <input
+          type="text"
+          placeholder="add a book..."
+          class="border-2 rounded-l-full px-10 py-2"
+        />
+        <a href="#" class="bg-purple-500 text-white rounded-r-full py-2 px-4"
+          >اضافه</a
+        >
+      </form>
+    </div>
+  </body>
+</html>

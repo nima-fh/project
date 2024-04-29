@@ -1,0 +1,12 @@
+.card {
+  transform: translateX(400%);
+}
+.card:nth-of-type(even) {
+  transform: translateX(-400%);
+}
+.show {
+  transform: translateX(0);
+}
+.show:nth-of-type(even) {
+  transform: translateX(0);
+}

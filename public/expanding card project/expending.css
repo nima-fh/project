@@ -1,0 +1,30 @@
+@font-face {
+  font-family: hamid;
+  src: url(../fonts/B\ Hamid_0.ttf);
+}
+body {
+  font-family: hamid;
+}
+.panel1 {
+  background-image: url(../image/1.jpg);
+}
+.panel2 {
+  background-image: url(../image/2.jpg);
+}
+.panel3 {
+  background-image: url(../image/3.jpg);
+}
+.panel4 {
+  background-image: url(../image/4.jpg);
+}
+.panel5 {
+  background-image: url(../image/5.jpg);
+}
+.active {
+  flex: 5;
+  transition: all ease-in 0.8s;
+}
+.active h3 {
+  opacity: 1;
+  transition: opacity 0.4 ease-in 0.7s;
+}

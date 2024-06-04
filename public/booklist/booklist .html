@@ -31,48 +31,7 @@
           <h1 class="text-2xl">کتاب های اخیر</h1>
         </div>
         <div id="list" class="">
-          <ul>
-            <li
-              class="flex justify-between items-center border-r-4 mx-5 my-3 p-2 border-b-gray-400 hover:border-purple-500"
-            >
-              <span
-                class="bg-purple-500 text-white py-3 px-5 rounded-full hover:bg-black hover:text-white"
-                >حذف</span
-              >
-
-              <span class="">شازده کچولو</span>
-            </li>
-            <li
-              class="flex justify-between items-center border-r-4 mx-5 my-3 p-2 border-b-gray-400 hover:border-purple-500"
-            >
-              <span
-                class="bg-purple-500 text-white py-3 px-5 rounded-full hover:bg-black hover:text-white"
-                >حذف</span
-              >
-
-              <span class=""> جنایات و مکافات</span>
-            </li>
-            <li
-              class="flex justify-between items-center border-r-4 mx-5 my-3 p-2 border-b-gray-400 hover:border-purple-500"
-            >
-              <span
-                class="bg-purple-500 text-white py-3 px-5 rounded-full hover:bg-black hover:text-white"
-                >حذف</span
-              >
-
-              <span class=""> هری پاتر</span>
-            </li>
-            <li
-              class="flex justify-between items-center border-r-4 mx-5 my-3 p-2 border-b-gray-400 hover:border-purple-500"
-            >
-              <span
-                class="bg-purple-500 text-white py-3 px-5 rounded-full hover:bg-black hover:text-white"
-                >حذف</span
-              >
-
-              <span class=""> قلعه حیوانات</span>
-            </li>
-          </ul>
+          <ul id="ul"></ul>
         </div>
       </div>
       <form action="" id="hide" class="flex justify-end items-center mr-10">
@@ -84,11 +43,16 @@
           type="text"
           placeholder="add a book..."
           class="border-2 rounded-l-full px-10 py-2"
+          id="input-addbook"
         />
-        <a href="#" class="bg-purple-500 text-white rounded-r-full py-2 px-4"
+        <a
+          href="#"
+          id="btn-addbook"
+          class="bg-purple-500 text-white rounded-r-full py-2 px-4"
           >اضافه</a
         >
       </form>
     </div>
+    <script src="booklist.js"></script>
   </body>
 </html>
